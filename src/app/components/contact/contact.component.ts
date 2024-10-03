@@ -15,7 +15,7 @@ import { Observable } from 'rxjs';
 })
 export class ContactComponent {
   contactForm: FormGroup;
-  private apiUrl = 'https://portfoliobackend-bahf.onrender.com'; 
+  private apiUrl = 'https://portfoliobackend-bahf.onrender.com//send-email'; 
   
   // http://localhost:3000/send-email
   constructor(private http:HttpClient,private fb: FormBuilder,private route:Router) {
