@@ -15,7 +15,9 @@ import { Observable } from 'rxjs';
 })
 export class ContactComponent {
   contactForm: FormGroup;
-  private apiUrl = 'http://localhost:3000/send-email'; 
+  private apiUrl = 'https://portfoliobackend-bahf.onrender.com'; 
+  
+  // http://localhost:3000/send-email
   constructor(private http:HttpClient,private fb: FormBuilder,private route:Router) {
     this.contactForm = this.fb.group({
       firstname: ['', Validators.required],
