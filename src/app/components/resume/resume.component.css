@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f9fafb;
+  }
+  
+  /* Header Styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+  }
+  
+  header span {
+    color: #3498db;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover, nav ul li a.active {
+    color: #3498db;
+  }
+  
+  /* Resume Section Styling */
+  .resume-section {
+    padding: 40px 50px;
+  }
+  
+  .resume-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .resume-title h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+  }
+  
+  .resume-title h2 span {
+    color: #3498db;
+  }
+  
+  .download-btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #2979b6;
+  }
+  
+  .content {
+    margin-top: 30px;
+  }
+  
+  .education, .skills {
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    font-size: 1.6rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card p {
+    color: #5d6d7e;
+    margin-bottom: 10px;
+  }
+  
+  .card ul {
+    list-style: none;
+  }
+  
+  .card ul li {
+    margin-bottom: 10px;
+  }
+  
+  .card ul li span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #3498db;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f0f5f9;
+    color: #2c3e50;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  footer p {
+    font-size: 1.1rem;
+  }
+  
+  footer span {
+    color: #3498db;
+  }
+  
+  .follow-icons {
+    display: flex;
+  }
+  
+  .follow-icons a {
+    margin-left: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .follow-icons a:hover {
+    transform: rotate(10deg);
+  }
+  
+  .follow-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Additional Styling */
+  h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #3498db;
+  }
+  
